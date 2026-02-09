@@ -1,0 +1,53 @@
+{
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    // Auto-guardado al perder el foco (te olvidas del Ctrl+S)
+    "files.autoSave": "onFocusChange",
+
+    // Organiza las importaciones automáticamente al guardar (Ideal para Nest/Angular)
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+
+    // Muestra una línea vertical en los 80 caracteres (buena práctica de lectura)
+    "editor.rulers": [80, 120],
+
+    // Minimiza visualmente las carpetas vacías (hace el árbol más limpio)
+    "explorer.compactFolders": true,
+
+    // Fuentes y ligaduras (si usas Fira Code o JetBrains Mono)
+    "editor.fontLigatures": true,
+    
+    // Bracket Pair Colorization (ya es nativo, resalta los pares de llaves)
+    "editor.guides.bracketPairs": "active",
+
+    "chat.mcp.gallery.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    
+    "workbench.activityBar.location": "top",
+
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    
+    "workbench.colorTheme": "Atom One Light",
+    "workbench.colorCustomizations": {
+        // Fondo del editor
+        "editor.background": "#ffffff",
+        // Fondo de la barra lateral (File Manager)
+        "sideBar.background": "#ffffff",
+        // Fondo de la cabecera de la barra lateral
+        "sideBarSectionHeader.background": "#ffffff",
+        // Fondo de las pestañas (Tabs)
+        "editorGroupHeader.tabsBackground": "#ffffff",
+        "tab.inactiveBackground": "#ffffff",
+        "tab.activeBackground": "#ffffff",
+        // Fondo de la barra de actividad (donde están tus iconos ahora arriba)
+        "activityBar.background": "#ffffff",
+        // Líneas de borde (opcional, poner en blanco para que desaparezcan)
+        "sideBar.border": "#eeeeee",
+        "editorGroup.border": "#eeeeee"
+    }
+
+}
